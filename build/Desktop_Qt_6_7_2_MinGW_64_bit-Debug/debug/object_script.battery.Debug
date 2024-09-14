@@ -1,0 +1,14 @@
+debug/batteryinfocontroller.o
+debug/batteryinfomodel.o
+debug/batteryinfoservice.o
+debug/main.o
+debug/mainwindow.o
+debug/systemcontrolcontroller.o
+debug/systemcontrolservice.o
+debug/qrc_resources.o
+debug/moc_batteryinfocontroller.o
+debug/moc_batteryinfomodel.o
+debug/moc_batteryinfoservice.o
+debug/moc_mainwindow.o
+debug/moc_systemcontrolcontroller.o
+debug/moc_systemcontrolservice.o

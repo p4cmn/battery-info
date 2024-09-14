@@ -1,0 +1,14 @@
+release/batteryinfocontroller.o
+release/batteryinfomodel.o
+release/batteryinfoservice.o
+release/main.o
+release/mainwindow.o
+release/systemcontrolcontroller.o
+release/systemcontrolservice.o
+release/qrc_resources.o
+release/moc_batteryinfocontroller.o
+release/moc_batteryinfomodel.o
+release/moc_batteryinfoservice.o
+release/moc_mainwindow.o
+release/moc_systemcontrolcontroller.o
+release/moc_systemcontrolservice.o
