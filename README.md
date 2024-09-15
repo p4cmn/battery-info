@@ -1,2 +1,2 @@
 # README
-"# connector" 
+"# Battery info" 
