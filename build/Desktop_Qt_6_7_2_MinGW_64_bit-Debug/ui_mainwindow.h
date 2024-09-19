@@ -817,7 +817,7 @@ public:
         batteryTypeLabel->setText(QCoreApplication::translate("MainWindow", "N/A", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "Voltage:", nullptr));
         voltageLabel->setText(QCoreApplication::translate("MainWindow", "N/A", nullptr));
-        label_6->setText(QCoreApplication::translate("MainWindow", "Maximum battery capacity:", nullptr));
+        label_6->setText(QCoreApplication::translate("MainWindow", "Design battery capacity:", nullptr));
         maxBatteryCapLabel->setText(QCoreApplication::translate("MainWindow", "N/A", nullptr));
         label_7->setText(QCoreApplication::translate("MainWindow", "Current battery capacity:", nullptr));
         curBatteryCapLabel->setText(QCoreApplication::translate("MainWindow", "N/A", nullptr));

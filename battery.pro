@@ -11,28 +11,28 @@ LIBS += -lPowrprof -lsetupapi
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    batteryinfocontroller.cpp \
-    batteryinfomodel.cpp \
-    batteryinfoservice.cpp \
-    main.cpp \
-    mainwindow.cpp \
-    systemcontrolcontroller.cpp \
-    systemcontrolservice.cpp
+  source/batteryinfocontroller.cpp \
+  source/batteryinfomodel.cpp \
+  source/batteryinfoservice.cpp \
+  source/main.cpp \
+  source/mainwindow.cpp \
+  source/systemcontrolcontroller.cpp \
+  source/systemcontrolservice.cpp
 
 HEADERS += \
-  batteryhealth.h \
-  batteryinfocontroller.h \
-  batteryinfomodel.h \
-  batteryinfoservice.h \
-  batterytype.h \
-  mainwindow.h \
-  powermode.h \
-  powersupplytype.h \
-  systemcontrolcontroller.h \
-  systemcontrolservice.h
+  source/batteryhealth.h \
+  source/batteryinfocontroller.h \
+  source/batteryinfomodel.h \
+  source/batteryinfoservice.h \
+  source/batterytype.h \
+  source/mainwindow.h \
+  source/powermode.h \
+  source/powersupplytype.h \
+  source/systemcontrolcontroller.h \
+  source/systemcontrolservice.h
 
 FORMS += \
-  mainwindow.ui
+  other/mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -40,12 +40,12 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-  README.md \
-  applicationIcon.rc \
-  battery.ico
+  other/README.md \
+  other/applicationIcon.rc \
+  other/battery.ico
 
 RESOURCES += \
-  resources.qrc
+  other/resources.qrc
 
-RC_FILE += applicationIcon.rc
+RC_FILE += other/applicationIcon.rc
 
